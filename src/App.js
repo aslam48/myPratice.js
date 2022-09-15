@@ -1,7 +1,9 @@
 import React, { Component} from "react"
 import './App.css'
-import ClickCounter from "./components/ClickCounter";
-import HoverCounter from "./components/HoverCounter";
+// import Clickcounter2 from "./components/Clickcounter2";
+// import HoverCounter from "./components/HoverCounter";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCounter from "./components/HoverCounter";
 // import FRParentInput from "./components/FRParentInput";
 // import Welcome from "./components/welcome"
 // import Count from  "./components/Count"
@@ -17,17 +19,21 @@ import HoverCounter from "./components/HoverCounter";
 // import PureComp from './components/PureComp'
 // import Input from './components/Inpt'
 // import FocusInput from "./components/FocusInput";
-
-
-
+   import ComponentC from "./components/ComponentC";
+   import { UserProvider } from './components/UserContext'
 
 class App extends Component  {
    
   render() {
     return (
       <div className='App'>
-        <ClickCounter/>
-        <HoverCounter/>
+        <UserProvider>
+        <ComponentC value="vishwas"/>
+        </UserProvider>
+       {/* <Clickcounter2/> */}
+       {/* <HoverCounter/> */}
+        {/* <ClickCounter/> */}
+        {/* <HoverCounter/> */}
         {/* <FRParentInput/> */}
         {/* <Input/> */}
         {/* <FocusInput/> */}
