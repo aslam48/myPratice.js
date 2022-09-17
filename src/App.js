@@ -19,17 +19,17 @@ import './App.css'
 // import PureComp from './components/PureComp'
 // import Input from './components/Inpt'
 // import FocusInput from "./components/FocusInput";
-   import ComponentC from "./components/ComponentC";
-   import { UserProvider } from './components/UserContext'
+  //  import ComponentC from "./components/ComponentC";
+  //  import { UserProvider } from './components/UserContext'
 
 class App extends Component  {
    
   render() {
     return (
       <div className='App'>
-        <UserProvider>
+        {/* <UserProvider>
         <ComponentC value="vishwas"/>
-        </UserProvider>
+        </UserProvider> */}
        {/* <Clickcounter2/> */}
        {/* <HoverCounter/> */}
         {/* <ClickCounter/> */}
