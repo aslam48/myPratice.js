@@ -1,5 +1,6 @@
 import React, { Component} from "react"
 import './App.css'
+import Postlist from "./Axios_Http/Postlist";
 // import Clickcounter2 from "./components/Clickcounter2";
 // import HoverCounter from "./components/HoverCounter";
 // import ClickCounter from "./components/ClickCounter";
@@ -27,6 +28,7 @@ class App extends Component  {
   render() {
     return (
       <div className='App'>
+        <Postlist/>
         {/* <UserProvider>
         <ComponentC value="vishwas"/>
         </UserProvider> */}
